@@ -9,13 +9,13 @@
 ![Contributors](https://img.shields.io/github/contributors/2kabhishek/goodluck?style=plastic&color=ff69b4&label=Contributors)
 ![Followers](https://img.shields.io/github/followers/2kabhishek?style=plastic&color=blue&label=Followers)
 
-goodluck is a `<utility/tool/feature>` that allows `<insert_target_audience>` to do `<action/task_it_does>`.
+Are you lucky today? Run goodluck to find out.
 
 ## Prerequisites
 
 Before you begin, ensure you have met the following requirements:
 
-- You have installed the latest version of `<coding_language/dependency/requirement_1>`
+- You have installed the latest version of `go` & `fortune`.
 
 ## Installing goodluck
 
@@ -24,21 +24,14 @@ To install goodluck, follow these steps:
 ```bash
 git clone https://github.com/2kabhishek/goodluck
 cd goodluck
-<install_command>
+go build
+go install
 ```
 
 ## Using goodluck
 
 ```bash
 USAGE:
-    command [FLAGS] [OPTIONS]
-
-FLAGS:
-    -h, --help              Prints help information.
-
-OPTIONS:
-    -o, --option <value>    Option description. Options are: a, b. [default: a]
+    goodluck
 
 ```
-
-### More Info
