@@ -33,5 +33,12 @@ go install
 ```bash
 USAGE:
     goodluck
+```
 
+You may also have to export your fortune files path as an environment variable.
+It can be done like this:
+
+```bash
+fortune -f # Copy the path in output
+export FORTUNE_PATH="/copied/path/"
 ```
