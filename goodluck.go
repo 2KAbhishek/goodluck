@@ -7,7 +7,6 @@ import (
 	"math/rand"
 	"os"
 	"path/filepath"
-	"runtime"
 	"strings"
 	"time"
 )
@@ -20,13 +19,10 @@ func main() {
 	var files []string
 	var fortunePath string
 
-	switch osType := runtime.GOOS; osType {
-	case "linux":
-		fortunePath = "/usr/share/fortune"
-	case "darwin":
-		fortunePath = "/usr/local/Cellar/fortune/9708/share/games/fortunes"
-	default:
+	if len(os.Getenv("FORTUNE_PATH")) > 0 {
 		fortunePath = os.Getenv("FORTUNE_PATH")
+	} else {
+		fortunePath = "/usr/share/fortune"
 	}
 
 	err := filepath.Walk(fortunePath, func(path string, f os.FileInfo, err error) error {
