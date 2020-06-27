@@ -1,5 +1,3 @@
-<div align="center">
-
 # goodluck
 
 ![Size](https://img.shields.io/github/repo-size/2kabhishek/goodluck?style=plastic&color=0f0&label=Size)
@@ -12,7 +10,6 @@
 
 Are you lucky today? Run goodluck to find out.
 
-</div>
 
 ## Prerequisites
 
@@ -45,5 +42,4 @@ It can be done like this:
 fortune -f # Copy the path in output
 export FORTUNE_PATH="/copied/path/"
 ```
-Please consider hitting the ⭐ star button if this repo was useful to you, any contributions and suggestions are welcome.
 
