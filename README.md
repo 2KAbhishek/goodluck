@@ -10,7 +10,6 @@
 
 Are you lucky today? Run goodluck to find out.
 
-
 ## Prerequisites
 
 Before you begin, ensure you have met the following requirements:
@@ -42,4 +41,3 @@ It can be done like this:
 fortune -f # Copy the path in output
 export FORTUNE_PATH="/copied/path/"
 ```
-
